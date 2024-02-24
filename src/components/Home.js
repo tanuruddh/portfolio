@@ -12,12 +12,13 @@ const Home = () => {
                 </div>
                 <div className="socials" >
                     <div className="line"></div>
-                    <i className="ri-facebook-circle-fill"></i>
-                    <i className="ri-twitter-fill"></i>
-                    <i className="ri-linkedin-fill"></i>
-                    <i className="ri-whatsapp-line"></i>
+                    <a href="https://www.instagram.com/_trp_singh?igsh=cDR1M3BkZ3FoZzBu" target='_blank'><i className="ri-instagram-fill"></i></a>
+                    <a href="https://x.com/_trp_singh?t=zhNHkxWPjG_1yGYy9M4jqw&s=35" target='_blank'><i className="ri-twitter-fill"></i></a>
+                    <a target='_blank' href="https://www.linkedin.com/in/tanuruddh-pratap-singh-1b3845211/"><i className="ri-linkedin-fill"></i></a>
+                    <a href="https://wa.me/9548247281" target='_blank'><i className="ri-whatsapp-line"></i></a>
                 </div>
             </div>
+
         </>
     )
 }

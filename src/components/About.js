@@ -80,27 +80,23 @@ const About = () => {
                 <div className="darker-div"></div>
                 <h1>Experience</h1>
                 <div className="lighter-div">
-                    <div className="exp">
+                    <div className="exp first-exp">
                         <h2>Research and Development intern </h2>
                         <div className="exp-desc">
-                            <h3>Pune , Maharastra</h3>
-                            <p>Worked as UI/UX Engineer and contributed to the development of v24, and upgraded version of v23 antivirus available in market. Collaborated with the team to design and implement the user interface using React js ensuring a seamless and responsive user experience
-                                Actively participated in the entire software development lifecycle, from concept to delivery, including requirement gathering, design, development, testing and deployment.
+                            <h3>Quick Heal, Pune</h3>
+                            <p>Worked as UI/UX Engineer and contributed to the development of v24, and upgraded version of v23 antivirus available in market. <br /> Collaborated with the team to design and implement the user interface using React js ensuring a seamless and responsive user experience
+                                <br /> Actively participated in the entire software development lifecycle, from concept to delivery, including requirement gathering, design, development, testing and deployment.
+                                <br />
                                 Utilized various software tools such as JIRA ,Git and Bitbucket</p>
                         </div>
                     </div>
                     <div className="exp">
-                        <h2>Senior Python Developer</h2>
+                        <h2>Front-End Trainee</h2>
                         <div className="exp-desc">
-                            <h3>Scottech, Toledo</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, repellat! Mollitia nostrum,
-                                dolor repellat deleniti officiis voluptatem quas labore cupiditate iure ullam doloribus aliquam
-                                voluptates. Ratione earum reprehenderit iure, esse assumenda minima vero delectus consequuntur.
-                                Laborum eligendi nisi, doloremque, ab sint id enim in vel molestias, nihil vero suscipit a?
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, repellat! Mollitia nostrum,
-                                dolor repellat deleniti officiis voluptatem quas labore cupiditate iure ullam doloribus aliquam
-                                voluptates. Ratione earum reprehenderit iure, esse assumenda minima vero delectus consequuntur.
-                                Laborum eligendi nisi, doloremque, ab sint id enim in vel molestias, nihil vero suscipit a?</p>
+                            <h3>GLA University, Mathura</h3>
+                            <p>Worked as Web and Mobile Apps Developer, done a project in web by using React Native.
+                                <br />Responsible for checking cross browser and hence worked on diﬀerent browser like Safari, Opera, Firefox, Google Chrome and Internet Explorer. <br />
+                                Cooperating and communicating other team members for eﬃcient management works</p>
                         </div>
                     </div>
                 </div>

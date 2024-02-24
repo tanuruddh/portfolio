@@ -1,0 +1,50 @@
+import React from 'react'
+import logo from '../images/logo.svg';
+
+const Footer = () => {
+    return (
+        <>
+            <div class="footer-dark">
+                <footer>
+
+                    <div class="container">
+                        <div class="row">
+                            {/* <div class="col-sm-6 col-md-3 item">
+                                <h3>Services</h3>
+                                <ul>
+                                    <li><a href="#">Web design</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">Hosting</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-3 item">
+                                <h3>About</h3>
+                                <ul>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </div> */}
+                            <div class="col-md-6 item text">
+                                <h3>Trp Singh</h3>
+                                <p>A passionate developer having expertise in Web, API, and Database and the ability to adapt in
+                                    both self-starting and collaborative
+                                    environments while staying focused on
+                                    achieving high-quality results under strict
+                                    deadlines</p>
+                            </div>
+                            <div className="col item social">
+                                <a href="https://www.instagram.com/_trp_singh?igsh=cDR1M3BkZ3FoZzBu" target='_blank'><i className="ri-instagram-fill"></i></a>
+                                <a href="https://x.com/_trp_singh?t=zhNHkxWPjG_1yGYy9M4jqw&s=35" target="_blank"><i className="ri-twitter-fill"></i></a>
+                                <a target='_blank' href="https://www.linkedin.com/in/tanuruddh-pratap-singh-1b3845211/"><i className="ri-linkedin-fill"></i></a>
+                                <a href="https://wa.me/9548247281" target='_blank'><i className="ri-whatsapp-line"></i></a></div>
+                        </div>
+                        <p class="copyright">© 2024 Trp Singh. All right reserved</p>
+                    </div>
+                </footer>
+            </div>
+        </>
+    )
+}
+
+export default Footer
