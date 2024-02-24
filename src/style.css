@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #34353b;
+  }
+
+.nav{
+    height: 10vw;
+    background-color: transparent;
+    display: sticky;
+    margin-top: 3vh;
+    margin-left: 6vw;
+    font-size: 1vw;
+    z-index: 1;
+}
+
+.navbar-tag{
+  background-color: transparent;
+}
+
+nav img {
+    height: 200px;
+    width:200px;
+    object-fit: contain;
+    filter: invert(70%) sepia(96%) saturate(558%) hue-rotate(359deg)
+      brightness(103%) contrast(106%);
+  }
+
+  .sticky {
+    /* position:fixed; */
+    top: 0;
+    width: 100%;
+  }
+  ul {
+    position: relative;
+    margin-left: 2vw;
+    margin-top: 2vw;
+  }
+  ul li{
+    padding: 1vw;
+    
+  }
+
+  header {
+    position: absolute;
+    height: 100vh;
+    z-index: 0;
+    margin-top: -27vh;
+    background-image: url(./images/image-removebg-preview.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90vw;
+    /* margin-left: 45vw; */
+  }
+
+  /* @media only screen and (max-width: 1790px){
+    
+    .landing .intro{
+      margin-top: 55vh;
+    }
+  } */
+
+  div .collapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  /* position: fixed; */
+}
+
+form{
+  margin-left: 3vw;
+  background-color: #3d3e42;
+  height: 2.5vw;
+  border-radius: 1rem;
+  padding-top: 0;
+  color: white;
+  /* width: 15vw; */
+}
+form input{
+  color: white
+  }
+
+  .me-2:focus{
+    background-color: #3d3e42;
+    color: white;
+    border: #3d3e42 solid 3px;
+    outline: none;
+  }
+  ::placeholder{
+    color: #ff0000;
+}
+form i{
+    margin-top: 1.5vh;
+    width: 2vw;
+    /* margin-right: .7vw; */
+    z-index: 0;
+  }
+  
+  
+  
+  .me-2{
+    background-color: #3d3e42;
+    border: none;
+    height: 2.5vw;
+    border-radius: 1rem;
+    padding-top: 0;
+    color: white;
+  }
+
+  .intro{
+    position: relative;
+    color: white;
+    margin-left: 18vw;
+    margin-top: 15vh;
+    size: 10rem;
+  }
+  .intro h3{
+    position: relative;
+    color: white;
+    size: 10rem;
+    font-size: 2.8rem;
+    
+  }
+  .intro h3 span{
+    color: #fec86a;
+    font-weight: 600;
+    font-size: 4.5rem;
+  }
+  .contactBtn{
+    height: 3.8rem;
+    width: 12rem;
+    color: #fec86a;
+    border: #fec86a solid 3px;
+    background-color: #34353b;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+  }
+  .contactBtn:hover{
+    background-color: #fec86a;
+    color: #34353b;
+    
+    transition: all ease 0.5s;
+  }
+  .socials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 89.5vw;
+    
+    /* align-items: left; */
+    /* text-align: right; */
+    margin-top: -15vh;
+  }
+  .socials .line{
+    text-align: right;
+    margin-left: 1.5rem;
+    background-color: #fec86a;
+    height: 15vh;
+    width: 2.5px;
+  }
+  .socials i{
+    /* display: block; */
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    
+  }
+  
+  @media only screen and (max-width: 600px){
+    
+    .landing .intro{
+      /* position: relative; */
+      color: white;
+      margin-left: 5vw;
+      margin-top: 50vh;
+      size: 10rem;
+    }
+    .landing .intro h3{
+      position: relative;
+      color: white;
+      size: 3rem;
+      font-size: 1.8rem;
+      
+    }
+    .landing .intro h3 span{
+      color: #fec86a;
+      font-weight: 600;
+    font-size: 2.5rem;
+    }
+    .landing .contactBtn{
+      height: 2.8rem;
+      width: 12rem;
+      color: #fec86a;
+      border: #fec86a solid 3px;
+      background-color: #34353b;
+      border-radius: .5rem;
+      font-size: 1.5rem;
+    }
+    .landing .socials{
+      display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    margin-left: 89.5vw;
+    margin-top: -55vh;
+  }
+  
+  }
+  .about{
+    color: white;
+    margin-left: 8vw;
+    margin-top: 8.89999vh;
+    z-index: 1;
+  }
+
+  .description{
+    margin-left: 3vw;
+  }
+
+  .about h1{
+    font-size: 10vh;
+    font-family: "Libre Baskerville", serif;
+
+    
+    margin-left: 3vw;
+  }
+
+  .about .line{
+    width: 5vw;
+    height: .5vh;
+    background-color: #fec86a;
+  }
+
+  .about .description p{
+    margin-left: 6vw;
+    margin-top: -3vh;
+    font-size: 3vh;
+    width: 40vw;
+  }
+
+  .about .description .second-para{
+    margin: 0;
+  }
+
+  .about .img{
+    position: absolute;
+    height: 100vh;
+    z-index: 0;
+    margin-top: -36vh;
+    background-image: url(./images/trp_singh.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90vw;
+  }
+
+  .about .description span{
+    font-weight: 500;
+    font-size: 2.8rem;
+    color: #fec86a;
+  }
+
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+  }
+  
+  .skills h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .cards {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 2.5vh;
+  }
+  
+  .skill-card {
+    height: 20vw;
+    width: 20vw;
+    background-color: #3d3e42;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    transition: all ease 0.5s;
+  }
+  
+  .skill-card:hover {
+    background-color: #fec86a;
+  }
+  
+  .skill-card img {
+    height: 7.5vw;
+    width: 7.5vw;
+    object-fit: contain;
+    
+  }
+  
+  .skill-card h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fbfbfb;
+  }
+
+
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 97.5vw;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .darker-div {
+    background-color: #34353a;
+    width: 100vw;
+    height: 10vh;
+  }
+  
+  .experience h1 {
+    position: absolute;
+    color: #fbfbfb;
+    font-size: 3.5vw;
+    font-family: "Libre Baskerville", serif;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 15%;
+  }
+  
+  .lighter-div {
+    background-color: #3d3e42;
+    width: 100vw;
+    /* height: 90vh; */
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .lighter-div .exp {
+    height: 30vh;
+    width: 50vw;
+    position: relative;
+    margin-left: 20vh;
+  }
+  
+  .exp h2 {
+    color: #fbfbfb;
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  
+  .exp h2::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    color: #fec86a;
+    background-color: #fec86a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 7.5%;
+    left: -5%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #fec86a;
+  }
+  
+  .exp-desc::before {
+    content: "";
+    height: 190px;
+    width: 2.5px;
+    background-color: #fbfbfb;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: -5%;
+  }
+  .exp-desc h3 {
+    color: #fbfbfb;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+  
+  .exp-desc p {
+    color: #fbfbfb;
+    font-size: 1vw;
+    font-weight: 400;
+  }
+
+
+
+  @media only screen and (max-width: 600px){
+    .about h1{
+      font-size: 5vh;
+      
+      margin-left: 3vw;
+    }
+    .about .line{
+      width: 5vw;
+      height: .5vh;
+      background-color: #fec86a;
+    }
+  
+    .about .description p{
+      margin-left: 6vw;
+      margin-top: 0vh;
+      font-size: 1vh;
+      width: 90vw;
+    }
+
+  
+    .about .description .second-para{
+      margin: 0;
+    }
+    .about .img{
+      visibility: hidden;
+    }
+    .about .description span{
+      font-weight: 300;
+      font-size: 0.8rem;
+      color: #fec86a;
+    }
+    .skills h1 {
+      font-size: 5vh;
+      /* font-weight: 700; */
+      color: #fbfbfb;
+      font-family: "Libre Baskerville", serif;
+    }
+    
+    .lighter-div {
+      background-color: #3d3e42;
+      width: 120vw;
+      /* height: 90vh; */
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    
+    .lighter-div .exp {
+      height: 30vh;
+      width: 50vw;
+      position: relative;
+      margin-left: 35vw;
+      margin-top: 10vw;
+    }
+    
+    .exp h2 {
+      color: #fbfbfb;
+      font-size: 2.5vw;
+      font-weight: 400;
+      margin-left: 3vw;
+
+    }
+    .exp h3{
+      margin-left: 3vw;
+    }
+    .exp p{
+      margin-left: 3vw;
+    }
+
+  }
