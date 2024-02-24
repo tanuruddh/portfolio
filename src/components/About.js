@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar';
 import python from '../images/python.svg';
 import JavaScript from '../images/js.svg';
 import html from '../images/html.svg';
