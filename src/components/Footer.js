@@ -4,12 +4,12 @@ import logo from '../images/logo.svg';
 const Footer = () => {
     return (
         <>
-            <div class="footer-dark">
+            <div className="footer-dark">
                 <footer>
 
-                    <div class="container">
-                        <div class="row">
-                            {/* <div class="col-sm-6 col-md-3 item">
+                    <div className="container">
+                        <div className="row">
+                            {/* <div className="col-sm-6 col-md-3 item">
                                 <h3>Services</h3>
                                 <ul>
                                     <li><a href="#">Web design</a></li>
@@ -17,7 +17,7 @@ const Footer = () => {
                                     <li><a href="#">Hosting</a></li>
                                 </ul>
                             </div>
-                            <div class="col-sm-6 col-md-3 item">
+                            <div className="col-sm-6 col-md-3 item">
                                 <h3>About</h3>
                                 <ul>
                                     <li><a href="#">Company</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                                     <li><a href="#">Careers</a></li>
                                 </ul>
                             </div> */}
-                            <div class="col-md-6 item text">
+                            <div className="col-md-6 item text">
                                 <h3>Trp Singh</h3>
                                 <p>A passionate developer having expertise in Web, API, and Database and the ability to adapt in
                                     both self-starting and collaborative
@@ -39,7 +39,7 @@ const Footer = () => {
                                 <a target='_blank' href="https://www.linkedin.com/in/tanuruddh-pratap-singh-1b3845211/"><i className="ri-linkedin-fill"></i></a>
                                 <a href="https://wa.me/9548247281" target='_blank'><i className="ri-whatsapp-line"></i></a></div>
                         </div>
-                        <p class="copyright">© 2024 Trp Singh. All right reserved</p>
+                        <p className="copyright">© 2024 Trp Singh. All right reserved</p>
                     </div>
                 </footer>
             </div>
