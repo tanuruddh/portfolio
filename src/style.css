@@ -70,7 +70,7 @@ nav img {
   /* position: fixed; */
 }
 
-form{
+.d-flex{
   margin-left: 3vw;
   background-color: #3d3e42;
   height: 2.5vw;
@@ -591,4 +591,147 @@ form i{
     margin-bottom:0;
   }
   
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 85vh;
+  color: white;
+  margin-top: -10vh;
+  
+}
+.contact .para{
+  
+}
+.contact .para h1{
+  font-size: 7vh;
+  
+}
+.contact .para p{
+  font-size: 3vh;
+  max-width: 40vw;
+  margin-top: 7vh;
+  
+}
+
+.contact form{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-right: 10vw;
+  padding-top: 2vh;
+  height: 50vh;
+  /* max-width: 23vw; */
+  min-width: 26vw;
+  background-color: #282d32;
+  border-radius: 1vh;
+  box-shadow: 0px 0px 100px 1px #030303;
+
+
+}
+
+.contact form input{
+  width: 22vw;
+  min-height: 5vh;
+  margin-left: 2vh;
+  
+  background-color:#3d3e42;
+  border-radius: .6vh;
+
+}
+.contact form label{
+  margin-top: 2vh;
+  font-size: 2vh;
+  margin-left: 1vw;
+}
+
+.contact form textarea{
+  background-color: #3d3e42;
+  margin-left: 2vh;
+  width: 22vw;
+}
+
+.contact form .btn{
+  margin-top: 3vh;
+  color: black;
+  font-weight: 300;
+  font-size: 2vh;
+  background-color: #fec86a;
+  width: 6vw;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+@media (max-width:767px) {
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 85vh;
+    color: white;
+    margin-top: 10vh;
+    width: 100vw;
+    
+  }
+ 
+  .contact .para h1{
+    font-size: 3vh;
+    
+  }
+  .contact .para p{
+    font-size: 1vh;
+    max-width: 90vw;
+    margin-top: 2vh;
+    
+  }
+  
+  .contact form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    margin-left: 17vw;
+    margin-top: -8vh;
+    height: 48vh;
+    min-width: 80vw;
+    background-color: #282d32;
+    border-radius: 1vh;
+    box-shadow: 0px 0px 100px 1px #030303;
+    padding-left: 5vw;
+  
+  
+  }
+  
+  .contact form input{
+    width: 70vw;
+    min-height: 5vh;
+    margin-left: 0;
+    background-color:#3d3e42;
+    border-radius: .6vh;
+  
+  }
+  .contact form label{
+    margin-top: 2vh;
+    font-size: 1.5vh;
+    margin-left: 1vw;
+  }
+  
+  .contact form textarea{
+    width: 70vw;
+    margin-left: 0;
+  }
+  
+  .contact form .btn{
+    font-weight: 300;
+    font-size: 2vh;
+    background-color: #fec86a;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
   https://epicbootstrap.com/snippets/footer-dark
+
