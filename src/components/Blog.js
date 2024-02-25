@@ -1,9 +1,10 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from 'react';
 
 const Blog = () => {
     return (
-        <div>Blog PAge
+        <div className='blog'>
+            <p>Nothing for now.</p>
+
         </div>
     )
 }

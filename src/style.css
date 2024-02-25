@@ -619,18 +619,33 @@ form i{
   flex-direction: column;
   /* align-items: center; */
   /* justify-content: center; */
+  /* margin-right: 10vw;
+  padding-top: 2vh;
+  height: 50vh; */
+  /* max-width: 23vw; */
+  /* min-width: 26vw;
+  background-color: #282d32;
+  border-radius: 1vh;
+  box-shadow: 0px 0px 50px 1px #030303; */
+}
+
+.contact .form{
   margin-right: 10vw;
   padding-top: 2vh;
   height: 50vh;
-  /* max-width: 23vw; */
   min-width: 26vw;
   background-color: #282d32;
   border-radius: 1vh;
-  box-shadow: 0px 0px 100px 1px #030303;
-
+  box-shadow: 0px 0px 50px 1px #030303;
 
 }
+.hide-form{
+  visibility: hidden;
+}
 
+/* .contact .inner-div{
+  visibility: hidden;
+} */
 .contact form input{
   width: 22vw;
   min-height: 5vh;
@@ -650,6 +665,7 @@ form i{
   background-color: #3d3e42;
   margin-left: 2vh;
   width: 22vw;
+  color: white;
 }
 
 .contact form .btn{
@@ -720,6 +736,7 @@ form i{
   .contact form textarea{
     width: 70vw;
     margin-left: 0;
+    color: white;
   }
   
   .contact form .btn{
@@ -731,6 +748,16 @@ form i{
     margin-right: auto;
   }
   
+}
+
+.blog{
+  height: 75vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  font-weight: 500;
 }
 
   https://epicbootstrap.com/snippets/footer-dark

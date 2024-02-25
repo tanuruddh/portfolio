@@ -1,6 +1,12 @@
 import React from 'react';
 import '../style.css';
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+    let navigate = useNavigate();
+    const routeChange = () => {
+        let path = `/contact`;
+        navigate(path);
+    }
     return (
         <>
 
@@ -8,7 +14,7 @@ const Home = () => {
             <div className="landing">
                 <div className="intro">
                     <h3>I'M <span>Trp Singh</span><br />Mern-Stack Developer </h3>
-                    <button className='contactBtn'>Contact Me</button>
+                    <button onClick={routeChange} className='contactBtn'>Contact Me</button>
                 </div>
                 <div className="socials" >
                     <div className="line"></div>
