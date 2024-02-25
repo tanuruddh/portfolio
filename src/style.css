@@ -639,13 +639,8 @@ form i{
   box-shadow: 0px 0px 50px 1px #030303;
 
 }
-.hide-form{
-  visibility: hidden;
-}
 
-/* .contact .inner-div{
-  visibility: hidden;
-} */
+
 .contact form input{
   width: 22vw;
   min-height: 5vh;
