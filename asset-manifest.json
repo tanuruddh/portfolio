@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trp-portfolio/static/css/main.1f99d6a8.css",
-    "main.js": "/trp-portfolio/static/js/main.3e204166.js",
+    "main.js": "/trp-portfolio/static/js/main.81359f40.js",
     "static/media/images.svg": "/trp-portfolio/static/media/images.df3514082d1e9259a8f74bce35ecd63b.svg",
     "static/media/image-removebg-preview.png": "/trp-portfolio/static/media/image-removebg-preview.0fd964dfd7f9ef665c47.png",
     "static/media/trp_singh.png": "/trp-portfolio/static/media/trp_singh.3045123452516f334007.png",
@@ -22,10 +22,10 @@
     "static/media/css.svg": "/trp-portfolio/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/html.svg": "/trp-portfolio/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.1f99d6a8.css.map": "/trp-portfolio/static/css/main.1f99d6a8.css.map",
-    "main.3e204166.js.map": "/trp-portfolio/static/js/main.3e204166.js.map"
+    "main.81359f40.js.map": "/trp-portfolio/static/js/main.81359f40.js.map"
   },
   "entrypoints": [
     "static/css/main.1f99d6a8.css",
-    "static/js/main.3e204166.js"
+    "static/js/main.81359f40.js"
   ]
 }
